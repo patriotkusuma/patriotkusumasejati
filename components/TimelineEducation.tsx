@@ -4,18 +4,19 @@ import { LuCircleDot } from "react-icons/lu";
 function TimelineEducation() {
   const school = [
     {
+      id:1,
       nama: "Universitas Amikom Yogyakarta",
       jurusan: "Bachelor of Informatics",
       duration: "2018-2023",
     },
-    { nama: "SMAN 1 Bambanglipuro", jurusan: " ", duration: "2015-2018" },
+    { id:2,nama: "SMAN 1 Bambanglipuro", jurusan: " ", duration: "2015-2018" },
   ];
   return (
     <div className="">
       <h1 className="text-2xl text-center font-semibold mb-6">Education</h1>
       {school.map((item) => {
         return (
-          <div className=" flex flex-row justify-between gap-x-2 md:gap-x-4 text-gray-50">
+          <div key={item.id} className=" flex flex-row justify-between gap-x-2 md:gap-x-4 text-gray-50">
               <div className="  md:mx-auto relative">
                 <div className="h-full w-6 flex items-center justify-center">
                   <div className="h-full w-1 bg-white/30 pointer-events-none"></div>

@@ -5,11 +5,12 @@ import { FaLocationPin } from 'react-icons/fa6'
 import { MdLocationPin } from 'react-icons/md'
 import { PiStudentThin } from 'react-icons/pi'
 import TimelineEducation from './TimelineEducation'
+import Image from 'next/image'
 
 function Profile() {
   return (
     <div className='flex flex-col justify-center items-center mx-auto gap-y-4'>
-        <img src='https://avatars.githubusercontent.com/u/39677773?v=4' className='md:w-[180px] w-[120px] rounded-full ' alt="Logo" />
+        <Image src='https://avatars.githubusercontent.com/u/39677773?v=4' className='md:w-[180px] w-[120px] rounded-full ' alt="Logo" />
         <div className='text-left'>
             <h1 className='text-white font-bold text-3xl mb-2 '>Patriot Kusuma Sejati</h1>
             <h3 className='text-white/90 font-light inline-flex place-self-start gap-x-2'>
