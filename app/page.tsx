@@ -15,11 +15,11 @@ export const metadata: Metadata = {
   publisher: "Patriot Kusuma Sejati",
   icons: {
     icon: "/img/iot.jpg",
-    shortcut: "https://avatars.githubusercontent.com/u/39677773?v=4",
-    apple: "https://avatars.githubusercontent.com/u/39677773?v=4",
+    shortcut: "/img/iot.jpg",
+    apple: "/img/iot.jpg",
     other: {
       rel: "apple-touch-icon-precomposed",
-      url: "https://avatars.githubusercontent.com/u/39677773?v=4",
+      url: "/img/iot.jpg",
     },
   },
   openGraph: {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     url: "https://patriotkusuma.my.id",
     type: "website",
     images: {
-      url: "https://avatars.githubusercontent.com/u/39677773?v=4",
+      url: "https://patriotkusuma.my.id/img/iot.jpg",
       alt: "Patriot Kusuma Sejati",
     },
   },
