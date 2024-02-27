@@ -278,8 +278,8 @@ function Project() {
               </p>
               {project.technologies != null && (
                 <p className="text-[14px]  text-white inline-flex flex-wrap gap-4 w-full">
-                  {project.technologies.map((tech) => (
-                    <div className="inline-flex gap-2 items-center">
+                  {project.technologies.map((tech, index) => (
+                    <div className="inline-flex gap-2 items-center" key={index}>
                       <span className="p-1.5 h-1.5 w-1.5 rounded-full bg-yellow-600"></span>
                       <span className="text-white">{tech}</span>
                     </div>
