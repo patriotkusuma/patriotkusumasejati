@@ -12,6 +12,7 @@ export function getProjectList(tab: any) {
             description: "Web Company Profile For Dister",
             url: "https://dister.id/",
             technologies: ["HTML", "CSS", "JavaScript", "Codeigniter"],
+            duration: null,
             imgPreview: [
               {
                 src: "https://dister.com/assets/img/logo.png",
@@ -30,6 +31,7 @@ export function getProjectList(tab: any) {
               "Redesign and development student application for dister company",
             url: "https://siswa.akademik.co.id/",
             technologies: ["HTML", "CSS", "JavaScript", "Codeigniter"],
+            duration: null,
             imgPreview: [
               {
                 src: "https://dister.com/assets/img/logo.png",
@@ -48,6 +50,7 @@ export function getProjectList(tab: any) {
               "Redesign and development teacher application for dister company",
             url: "https://guru.akademik.co.id/",
             technologies: ["HTML", "CSS", "JavaScript", "Codeigniter"],
+            duration: null,
             imgPreview: [
               {
                 src: "https://dister.com/assets/img/logo.png",
@@ -66,6 +69,7 @@ export function getProjectList(tab: any) {
               "Design and development web company profile template for dister client's",
             url: "https://guru.akademik.co.id/",
             technologies: ["HTML", "CSS", "JavaScript", "Codeigniter"],
+            duration: null,
             imgPreview: [
               {
                 src: "https://dister.com/assets/img/logo.png",
@@ -84,6 +88,7 @@ export function getProjectList(tab: any) {
               "Design and development web company profile for Harmony Laundry",
             url: "https://harmonylaundrys.com",
             technologies: ["next.js", "TailwindCSS"],
+            duration: null,
             imgPreview: [
               {
                 src: "https://dister.com/assets/img/logo.png",
@@ -102,6 +107,7 @@ export function getProjectList(tab: any) {
               "Development Admin Dashboard For Recieve And Store Order In Harmony Laundry",
             url: "https://admin.harmonylaundrys.com",
             technologies: ["Laravel", "Bootstrap", "Intertia.Js"],
+            duration: null,
             imgPreview: [
               {
                 src: "https://dister.com/assets/img/logo.png",
@@ -120,6 +126,7 @@ export function getProjectList(tab: any) {
               "Development Pos Application to take and order of kilo's laundry that integrated with admin data in Harmony Laundry",
             url: "https://admin.harmonylaundrys.com",
             technologies: ["next.js", "TailwindCSS", "Laravel"],
+            duration: null,
             imgPreview: [
               {
                 src: "https://dister.com/assets/img/logo.png",
@@ -138,6 +145,7 @@ export function getProjectList(tab: any) {
               "Smart fish feeder and smart monitoring for fish pool that integrated with internet of thing (IOT) and telegram notification",
             url: "https://admin.harmonylaundrys.com",
             technologies: ["Laravel", "TailwindCSS", "Inertia.js"],
+            duration: null,
             imgPreview: [
               {
                 src: "https://dister.com/assets/img/logo.png",
@@ -155,6 +163,7 @@ export function getProjectList(tab: any) {
             description: "Online ticket booking for mountain climbing",
             url: "https://gearberg.com",
             technologies: ["Laravel", "Bootstrap", "LiveWire"],
+            duration: null,
             imgPreview: [
               {
                 src: "https://dister.com/assets/img/logo.png",
@@ -173,6 +182,7 @@ export function getProjectList(tab: any) {
             company: "PT Mataram Surya Visi Sinema (MSV)",
             description: "",
             url: "https://dister.id/",
+            technologies: null,
             duration: "December 2023 - February 2024",
             imgPreview: [
               {
@@ -190,6 +200,7 @@ export function getProjectList(tab: any) {
             company: "PT Surya Visi Sinema (MSV)",
             description: "",
             url: "https://dister.id/",
+            technologies: null,
             duration: "August 2023 - November 2023",
             imgPreview: [
               {
