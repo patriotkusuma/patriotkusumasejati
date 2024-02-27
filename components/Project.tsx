@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Tab } from "./Tab";
 
-export function getProjectList(tab) {
+export function getProjectList(tab: any) {
   const projects =
     tab === "Project"
       ? [
