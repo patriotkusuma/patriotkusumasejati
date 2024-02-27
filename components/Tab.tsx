@@ -3,7 +3,7 @@ import { useState } from "react";
 
 type tabDescribableFunction = {
   tab: any;
-  isActive: boolean;
+  isActive: string;
   handleClick: () => {};
 };
 
