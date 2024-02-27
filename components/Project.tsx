@@ -240,7 +240,7 @@ function Project() {
           projectList.map((project, index) => (
             <div
               key={index}
-              className="basis-1/2 p-6 relative text-[14px] bg-gray-50  text-medium text-gray-500 dark:text-gray-400 dark:bg-gray-800 rounded-lg w-full min-h-52"
+              className="basis-1/2 p-6 relative text-[14px] bg-gray-50  text-medium text-gray-500 dark:text-gray-400 dark:bg-gray-800 rounded-lg w-full min-h-96"
             >
               <div className="flex flex-row justify-between items-center">
                 <h3 className="text-[18px] font-bold text-gray-900 dark:text-yellow-500 mb-2 ">
