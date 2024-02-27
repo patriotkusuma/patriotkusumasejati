@@ -4,7 +4,7 @@ import { useState } from "react";
 type tabDescribableFunction = {
   tab: any;
   isActive: string;
-  handleClick: () => {};
+  handleClick: void;
 };
 
 export const Tab = (fn: tabDescribableFunction) => {
