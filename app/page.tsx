@@ -46,14 +46,14 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col md:flex-row gap-y-5  justify-between md:px-10 mx-auto   p-6 md:gap-x-5" >
-      <div className="md:basis-1/4 basis-full dark:bg-gray-800 bg-gray-200 filter-blur-5 md:py-12 hover:shadow-white/20 backdrop-blur-sm  flex items-center md:px-3 p-4 rounded-3xl hover:shadow-2xl duration-500 ease-in-out">
-        <Profile/>
+    <main className="flex min-h-screen flex-col md:flex-row gap-y-5  justify-between md:px-10 mx-auto   p-6 md:gap-x-5">
+      <div className="md:basis-1/4 basis-full dark:bg-gray-800 bg-gray-200 filter-blur-5 md:py-12 hover:shadow-white/20 backdrop-blur-sm  flex items-start md:px-3 p-4 rounded-3xl hover:shadow-2xl duration-500 ease-in-out">
+        <Profile />
       </div>
       <div className="md:basis-3/4 basis-full flex flex-col flex-wrap overflow-hidden relative gap-y-5">
-        <AboutMe/>
-        <Project/>  
-        <Footer/>
+        <AboutMe />
+        <Project />
+        <Footer />
       </div>
     </main>
   );
