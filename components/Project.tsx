@@ -213,6 +213,24 @@ export function getProjectList(tab: any) {
               },
             ],
           },
+          {
+            name: "Freelance",
+            company: "Selft Employee",
+            description: "",
+            url: "",
+            technologies: null,
+            duration: "2022 - 2023",
+            imgPreview: [
+              {
+                src: "https://dister.com/assets/img/logo.png",
+                alt: "Dister Logo",
+              },
+              {
+                src: "https://dister.com/assets/img/logo.png",
+                alt: "Dister Logo",
+              },
+            ],
+          },
         ];
 
   return projects;
@@ -240,7 +258,7 @@ function Project() {
           projectList.map((project, index) => (
             <div
               key={index}
-              className="basis-1/2 p-6 relative text-[14px] bg-gray-50  text-medium text-gray-500 dark:text-gray-400 dark:bg-gray-800 rounded-lg w-full min-h-96"
+              className="basis-1/2 p-6 relative text-[14px] bg-gray-50  text-medium text-gray-500 dark:text-gray-400 dark:bg-gray-800 rounded-lg w-full "
             >
               <div className="flex flex-row justify-between items-center">
                 <h3 className="text-[18px] font-bold text-gray-900 dark:text-yellow-500 mb-2 ">
@@ -254,17 +272,22 @@ function Project() {
                   Link
                 </a>
               </div>
-              <p className="mb-2 flex flex-col ">
+              <p className="mb-10 flex flex-col ">
                 <span>{project.description}</span>
                 <span>{project.company}</span>
               </p>
               {project.technologies != null && (
-                <p className="text-sm absolute bottom-5 text-white grid grid-cols-3 w-full">
-                  <span>{project.technologies.map((tech) => tech + " ")}</span>
+                <p className="text-[14px]  text-white inline-flex flex-wrap gap-4 w-full">
+                  {project.technologies.map((tech) => (
+                    <div className="inline-flex gap-2 items-center">
+                      <span className="p-1.5 h-1.5 w-1.5 rounded-full bg-yellow-600"></span>
+                      <span className="text-white">{tech}</span>
+                    </div>
+                  ))}
                 </p>
               )}
               {project.duration != null && (
-                <p className="text-sm absolute bottom-5  text-white  w-full">
+                <p className="text-sm   text-white  w-full">
                   {project.duration}
                 </p>
               )}
