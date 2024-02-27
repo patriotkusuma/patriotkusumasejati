@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-export const Tab = ({ tab, isActive, handleClick }) => {
+export const Tab = ({ tab: any, isActive: any, handleClick: any }) => {
   // const [isActive, setIsActive] = useState("Project");
 
   // const handleClick = (tab) => {
