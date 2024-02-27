@@ -9,8 +9,8 @@ export const Tab = ({ tab, isActive, handleClick }) => {
   // };
   return (
     <>
-      {tab.map((mytab) => (
-        <li className="me-2">
+      {tab.map((mytab, index) => (
+        <li className="me-2" key={index}>
           <a
             href="#"
             onClick={() => handleClick(mytab)}
