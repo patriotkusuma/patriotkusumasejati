@@ -67,7 +67,7 @@ export function getProjectList(tab: any) {
             company: "PT Mataram Surya Visi Sinema (MSV)",
             description:
               "Design and development web company profile template for dister client's",
-            url: "https://sman1kebumen.sch.id/",
+            url: "https://capable-blini-df2fdf.netlify.app/",
             technologies: ["HTML", "CSS", "JavaScript", "Codeigniter"],
             duration: null,
             imgPreview: [
